@@ -21,7 +21,8 @@ para subir em um repositorio existente na linha de comando
 * Preparado (staged/index)
 * Consolidado (comitted);
 
-## Ajuda  ##### Geral
+## Ajuda  
+##### Geral
 	
     git help
 	
