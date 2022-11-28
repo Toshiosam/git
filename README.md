@@ -31,7 +31,8 @@ para subir em um repositorio existente na linha de comando
 	git help <qualquer_comando_git>
 	
 
-## Configuração ### Geral
+## Configuração 
+### Geral
 
 As configurações do GIT são armazenadas no arquivo **.gitconfig** localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: C:\Users\Documents and Settings\tosh ou *nix /home/tosh).
 
