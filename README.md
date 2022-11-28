@@ -1,17 +1,17 @@
 para criar a novo repositorio na lina de comando
-echo "# git" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin (url do repositorio) https://github.com/Toshiosam/git.git
-git push -u origin main
+* echo "# git" >> README.md
+* git init
+* git add README.md
+* git commit -m "first commit"
+* git branch -M main
+* git remote add origin (url do repositorio) https://github.com/Toshiosam/git.git
+* git push -u origin main
 
 
 para subir em um repositorio existente na linha de comando 
-git remote add origin (url do repositorio) https://github.com/Toshiosam/git.git
-git branch -M main
-git push -u origin main
+* git remote add origin (url do repositorio) https://github.com/Toshiosam/git.git
+* git branch -M main
+* git push -u origin main
 
 # GIT
 
