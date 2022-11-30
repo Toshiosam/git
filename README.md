@@ -15,22 +15,22 @@
 * git push -u origin main
 
 ## comandos uteis
-para verificar arquivos e seu status (mostra os arquivos que não foram incluidos em staged e os que estão em staged) 
+####para verificar arquivos e seu status (mostra os arquivos que não foram incluidos em staged e os que estão em staged) 
 *git status
 
-para adicionar arquivos para staged
+####para adicionar arquivos para staged
 *git add .
 
-para remover arquivo da area de staging
+####para remover arquivo da area de staging
 *git restore --staged (+nome do arquivo)
 
-para fazer um commit
+####para fazer um commit
 *git commit -m "(colocar nome do commit)"
 
-para deletar um commit local
+####para deletar um commit local
 *git reset HEAD~1
 
-para subir em um repositorio existente na linha de comando 
+####para subir em um repositorio existente na linha de comando 
 * git remote add origin (+ url do repositorio) 
 * git branch -M main
 * git push -u origin main
