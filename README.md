@@ -36,7 +36,34 @@
 * git branch -M main
 * git push -u origin main
 
-##
+# Branch
+Para criamos uma branch e depois juntarmos com o código que já está na main (lembrando que a branch é uma linha cronológica adicional/alternativa a principal, a branch pode ser criada tanto para quando você for fazer uma alteração em um arquivo, quando para adicionar outro arquivo dentro do projeto ou mesmo excluir).
+
+a primeira coisa que fazemos é **git checkout -b "(nome da nonva branch)"**, Esse comando além de criar a branch já entra nela com o checkout.
+E agora fazemos o passo a passo que já sabemos, colocamos a nossa alteração em stagging com o **git add .** e commitamos com o **git commit -m "(nome do commit)"**
+
+Vocês lembram que utilizávamos o git push orgin main né? Porém main era aquela branch principal. Agora então usaremos git push origin (nome da nonva branch)
+Agora se olharmos o nosso Github, veremos que tem 2 branches, a main e a nonva branch
+
+# Merge
+para fazer um merge precisamos ir para a nossa branch principal **git checkout main** e lá faremos o merge com a branch nova que criamos, 
+com o comando **git merge (+nome da branch)** Pronto, agora tudo o que tinha de alteração na branch botao juntou com a main
+Para finalizar, vamos jogar lá no Github isso tudo com o **git push origin main**
+
+# Clone
+Como vocês podem baixar meu código? 
+Sempre que você entrar em um repositório, seja o seu ou o de qualquer outra pessoa, terá esse botão **Code**, que quando você clica aparece um link:
+![Captura de tela 2022-11-30 082204](https://user-images.githubusercontent.com/101885085/204783638-4680064d-a634-4d98-9040-c9a8d47d15aa.png)
+
+
+Você irá copiar esse link e levar ele lá pro nosso terminal, 
+O comando para puxar o projeto para a sua máquina é o **git clone (+url do repositorio)**
+Não é necessário criar um repositório antes disso, como fizemos anteriormente com o git init. Dessa vez, basta abrir o terminal e clonar o projeto e tudo aparecerá!
+
+# Pull
+E se eu fizer uma alteração no repositório, como vocês podem atualizar na máquina de vocês?
+Basta vocês executarem o comando **git pull**, ele irá puxar todas as alterações feitas no repositório do Github para o seu repositório local
+
 
 ## Ajuda  
 ##### Geral
