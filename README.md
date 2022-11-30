@@ -53,6 +53,8 @@ Para finalizar, vamos jogar lá no Github isso tudo com o **git push origin main
 # Clone
 Como vocês podem baixar meu código? 
 Sempre que você entrar em um repositório, seja o seu ou o de qualquer outra pessoa, terá esse botão **Code**, que quando você clica aparece um link:
+
+
 ![Captura de tela 2022-11-30 082204](https://user-images.githubusercontent.com/101885085/204783638-4680064d-a634-4d98-9040-c9a8d47d15aa.png)
 
 
@@ -85,23 +87,23 @@ As configurações realizadas através dos comandos abaixo serão incluídas no 
 
 ##### Setar usuário
     git config --global user.name "(+ nome de usuario)"
-ex	git config --global user.name "Toshiosam"
+ex	**git config --global user.name "Toshiosam"**
 
 ##### Setar email	
     git config --global user.email (+ endereço de email)
-ex  git config --global user.email tosh.sam@gmail.com
+ex  **git config --global user.email tosh.sam@gmail.com**
 	
 ##### Setar editor
-	git config --global core.editor vim
+	**git config --global core.editor vim**
 	
 ##### Setar ferramenta de merge
-	git config --global merge.tool vimdiff
+	**git config --global merge.tool vimdiff**
 
 ##### Setar arquivos a serem ignorados
-	git config --global core.excludesfile ~/.gitignore
+	**git config --global core.excludesfile ~/.gitignore**
 
 ##### Listar configurações
-	git config --list
+	**git config --list**
 
 ### Ignorar Arquivos
 
