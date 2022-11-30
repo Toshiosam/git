@@ -1,4 +1,11 @@
-para criar a novo repositorio na lina de comando
+# GIT
+## os arquivos no git podem estar em tres estados:
+
+* Modificado (modified);
+* Preparado (staged/index)
+* Consolidado (comitted);
+...
+# para criar a novo repositorio na lina de comando
 * echo "# git" >> README.md
 * git init
 * git add README.md
@@ -7,19 +14,28 @@ para criar a novo repositorio na lina de comando
 * git remote add origin (url do repositorio) https://github.com/Toshiosam/git.git
 * git push -u origin main
 
+...
+para verificar aruqivos e seu status 
+git status
+
+para adicionar arquivos para staged
+git add .
+
+para remover arquivo da area de staging
+git restore --staged (+nome do arquivo)
+
+para fazer um commit
+git commit -m "(colocar nome do commit)"
+
+para deletar um commit local
+git reset HEAD~1
 
 para subir em um repositorio existente na linha de comando 
 * git remote add origin (url do repositorio) https://github.com/Toshiosam/git.git
 * git branch -M main
 * git push -u origin main
 
-# GIT
-
-## Estados
-
-* Modificado (modified);
-* Preparado (staged/index)
-* Consolidado (comitted);
+...
 
 ## Ajuda  
 ##### Geral
