@@ -16,19 +16,19 @@
 
 ## comandos uteis
 ####para verificar arquivos e seu status (mostra os arquivos que não foram incluidos em staged e os que estão em staged) 
-*git status
+* git status
 
 #### para adicionar arquivos para staged
-*git add .
+* git add .
 
 #### para remover arquivo da area de staging
-*git restore --staged (+nome do arquivo)
+* git restore --staged (+nome do arquivo)
 
 #### para fazer um commit
-*git commit -m "(colocar nome do commit)"
+* git commit -m "(colocar nome do commit)"
 
 #### para deletar um commit local
-*git reset HEAD~1
+* git reset HEAD~1
 
 #### para subir em um repositorio existente na linha de comando 
 * git remote add origin (+ url do repositorio) 
