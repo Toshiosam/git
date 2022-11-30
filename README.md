@@ -14,8 +14,8 @@
 * git remote add origin (url do repositorio) https://github.com/Toshiosam/git.git
 * git push -u origin main
 
-##
-para verificar aruqivos e seu status 
+## comandos uteis
+para verificar arquivos e seu status (mostra os arquivos que não foram incluidos em staged e os que estão em staged) 
 git status
 
 para adicionar arquivos para staged
