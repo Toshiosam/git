@@ -15,7 +15,8 @@
 * git push -u origin main
 
 ## comandos uteis
-####para verificar arquivos e seu status (mostra os arquivos que não foram incluidos em staged e os que estão em staged) 
+#### para verificar arquivos e seu status 
+#### (mostra os arquivos que não foram incluidos em staged e os que estão em staged) 
 * git status
 
 #### para adicionar arquivos para staged
