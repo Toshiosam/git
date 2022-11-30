@@ -1,3 +1,4 @@
+![Git-Icon-Black](https://user-images.githubusercontent.com/101885085/204784862-11c86951-f024-472f-85f0-bbd948031b33.png)
 # GIT
 ## os arquivos no git podem estar em tres estados:
 
