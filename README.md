@@ -14,7 +14,7 @@
 * git remote add origin (url do repositorio) https://github.com/Toshiosam/git.git
 * git push -u origin main
 
-...
+##
 para verificar aruqivos e seu status 
 git status
 
@@ -35,7 +35,7 @@ para subir em um repositorio existente na linha de comando
 * git branch -M main
 * git push -u origin main
 
-...
+##
 
 ## Ajuda  
 ##### Geral
